@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+  }
+
+.section1{
+    min-height: 50vh;
+    background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/190411205350-spacex-falcon-heavy-second-launch-exlarge-169.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.content, .features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+h1 {
+    border: rgb(245, 239, 239) solid 1px;
+    padding: 30px;
+    text-shadow: 2px 2px grey;
+}
+
+h2 {
+    border: rgb(245, 239, 239) solid 1px;
+    padding: 55px;
+    text-shadow: 1px 1px grey;
+
+}
+.features {
+    border: rgb(245, 239, 239) solid 1px;
+    padding: 30px;
+    
+}
+
+h3 {
+    text-shadow: 1px 1px grey;
+}
+
+.featuresbox {
+    border: rgb(102, 100, 100) solid 1px;
+    padding: 30px;
+}
+
+.buyButton{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.more {
+    font-size: 57px;
+    background: rgb(95, 94, 94);
+    padding-bottom: 8vh;
+    padding-top: 8vh;
+}
+
+.gradient {
+    font-size: 57px;
+    text-align: right;
+    background-image: linear-gradient( grey, blue);
+    padding-bottom: 8vh;
+    padding-top: 8vh;
+
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.optionsbox{
+    width: 425px;
+    height: 320px;
+}
+
+.optionsbox:hover {
+    width: 450px;
+    height: 339px;
+}
+
+.registration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.footer{
+    margin-left: 10px;
+}
